@@ -6,7 +6,7 @@ import Button from './Button';
 
 const AlbumDetail = (album) => {
     
-    //Destruturar props, quando há uma grande variedade de dados vindo através dela
+    //Structuring props, when there is a wide variety of data coming in through
     const { title, artist, thumbnail_image, image, url } = album.albumData;
     const { 
         headerContentStyle, 
